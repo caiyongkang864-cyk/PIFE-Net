@@ -1,0 +1,28 @@
+{
+  "train_pt_dir": "/root/autodl-tmp/data/Train_Tensors_PT",
+  "val_pt_dir": "/root/autodl-tmp/data/Val_Tensors_PT",
+  "output_dir": "/root/autodl-tmp/weights_dixon_physics",
+  "epochs": 300,
+  "steps_per_epoch": 250,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "base_channels": 32,
+  "use_coordinates": false,
+  "train_patch_size": [
+    128,
+    128,
+    64
+  ],
+  "foreground_patch_probability": 0.75,
+  "num_workers": 4,
+  "seed": 42,
+  "lambda_edge": 0.1,
+  "lambda_frequency_tv": 0.0001,
+  "lambda_gain_tv": 0.01,
+  "lambda_gain_prior": 0.01,
+  "te_op_ms": 1.151,
+  "te_ip_ms": 2.302,
+  "t2_star_w_ms": 25.0,
+  "t2_star_f_ms": 20.0,
+  "resume": null
+}

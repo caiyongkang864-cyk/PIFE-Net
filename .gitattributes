@@ -1,0 +1,7 @@
+
+# Use LF for text files
+* text=auto eol=lf
+
+# Windows command scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
